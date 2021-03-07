@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.frase-container
+{
+    width:100%;
+    min-height:100vh;
+    background: -webkit-linear-gradient(0deg, rgb(32, 209, 26) 10%, rgb(22, 119, 59) 90%);
+}
+
+.logo
+{
+    width:20rem;
+}
+
+.botton-buscarFrase
+{
+    padding: 1% 2%;
+    cursor:pointer;
+    color:rgb(22, 122, 61);
+    font-size:23px;
+    border-radius:15px;
+    background-color: white;
+    border:1px solid rgb(22, 122, 61);
+    user-select: none;
+}
+
+.botton-buscarFrase:hover
+{
+    background: white;
+    font-size: 25px;
+}
+
+.container-quote{
+    margin-top:3rem;
+    font-size: 20px;
+}
+
+.frase-container
+{
+    color:white;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width:15rem;
+    }
+}
