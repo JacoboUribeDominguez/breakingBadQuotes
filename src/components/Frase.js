@@ -12,7 +12,7 @@ const Frase = () => {
 
     const buscarFrase = async() => {
         setFraseActivo(true);
-        let response = await fetch('http://breaking-bad-quotes.herokuapp.com/v1/quotes')
+        let response = await fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes')
         response = await response.json();
         const {author, quote} = response[0];
         setFrase({
